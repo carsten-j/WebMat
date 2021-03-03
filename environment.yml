@@ -10,4 +10,5 @@ dependencies:
   - scipy
   - plotly
   - ipywidgets
-  - handcalcs
+  - pip:
+    - handcalcs
