@@ -1,7 +1,8 @@
-name: example-environment
+name: webmat
 channels:
   - conda-forge
 dependencies:
+  - pip
   - numpy
   - seaborn
   - matplotlib
@@ -10,5 +11,7 @@ dependencies:
   - scipy
   - plotly
   - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
   - pip:
     - handcalcs
